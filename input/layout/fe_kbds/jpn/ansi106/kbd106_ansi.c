@@ -287,7 +287,7 @@ static ALLOC_SECTION_LDATA VK_TO_WCHARS6 aVkToWch6[] = {
     {VK_ESCAPE    , 0       ,0x1b      ,0x1b      ,0x1b    ,0x1b    , 0x1b      , 0x1b      },
     {VK_OEM_4     , KANALOK ,'['       ,'{'       ,WCH_VS  ,WCH_OB  , 0x1b      , 0x1b      },
     {VK_OEM_5     , KANALOK ,'\\'      ,'|'       ,WCH_PS  ,WCH_PS  , 0x1c      , 0x1c      },
-    {VK_OEM_102   , KANALOK ,'\\'      ,'_'       ,WCH_RO  ,WCH_RO  , 0x1c      , 0x1c      },
+    {VK_OEM_102   , KANALOK ,'\\'      ,'_'       ,WCH_MU  ,WCH_MU  , 0x1c      , 0x1c      },
     {VK_OEM_6     , KANALOK ,']'       ,'}'       ,WCH_SVS ,WCH_CB  , 0x1d      , 0x1d      },
     {VK_RETURN    , 0       ,'\r'      ,'\r'      ,'\r'    ,'\r'    , '\n'      , '\n'      },
     {VK_SPACE     , 0       ,' '       ,' '       ,' '     ,' '     , 0x20      , 0x20      },
