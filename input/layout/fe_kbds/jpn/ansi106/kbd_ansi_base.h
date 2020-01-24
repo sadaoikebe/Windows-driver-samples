@@ -1285,7 +1285,7 @@ typedef struct tagKBD_TYPE_INFO {
 #define T37 _EQ(           MULTIPLY                                                         )
 #define T38 _EQ(           LMENU                                                            )
 #define T39 _EQ(           ' '                                                              )
-#define T3A _NE(DBE_ALPHANUMERIC,CAPITAL,CAPITAL,CAPITAL,CAPITAL,CAPITAL,CAPITAL   )
+#define T3A _NE(DBE_ALPHANUMERIC,DBE_ALPHANUMERIC,CAPITAL,CAPITAL,CAPITAL,CAPITAL,CAPITAL   )
 #define T3B _EQ(           F1                                                               )
 #define T3C _EQ(           F2                                                               )
 #define T3D _EQ(           F3                                                               )
