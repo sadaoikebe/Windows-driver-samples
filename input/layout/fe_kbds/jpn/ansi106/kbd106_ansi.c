@@ -286,8 +286,8 @@ static ALLOC_SECTION_LDATA VK_TO_WCHARS6 aVkToWch6[] = {
     {VK_CANCEL    , 0       ,0x03      ,0x03      ,0x03    ,0x03    , 0x03      , 0x03      },
     {VK_ESCAPE    , 0       ,0x1b      ,0x1b      ,0x1b    ,0x1b    , 0x1b      , 0x1b      },
     {VK_OEM_4     , KANALOK ,'['       ,'{'       ,WCH_VS  ,WCH_OB  , 0x1b      , 0x1b      },
-    {VK_OEM_5     , KANALOK ,'\\'      ,'|'       ,WCH_PS  ,WCH_PS  , 0x1c      , 0x1c      },
-    {VK_OEM_102   , KANALOK ,'\\'      ,'_'       ,WCH_MU  ,WCH_MU  , 0x1c      , 0x1c      },
+    {VK_OEM_5     , KANALOK ,'\\'      ,'|'       ,WCH_MU  ,WCH_MU  , 0x1c      , 0x1c      },
+    {VK_OEM_102   , KANALOK ,'\\'      ,'_'       ,WCH_PS  ,WCH_PS  , 0x1c      , 0x1c      },
     {VK_OEM_6     , KANALOK ,']'       ,'}'       ,WCH_SVS ,WCH_CB  , 0x1d      , 0x1d      },
     {VK_RETURN    , 0       ,'\r'      ,'\r'      ,'\r'    ,'\r'    , '\n'      , '\n'      },
     {VK_SPACE     , 0       ,' '       ,' '       ,' '     ,' '     , 0x20      , 0x20      },
@@ -299,7 +299,7 @@ static ALLOC_SECTION_LDATA VK_TO_WCHARS8 aVkToWch8[] = {
     //                      |          |==========|========|========|===========|===========|===========|===========|
     {'2'          , KANALOK ,'2'       ,'@'       ,WCH_HU  ,WCH_HU  , WCH_NONE  , WCH_NONE  , 0x00      , 0x00      },
     {'6'          , KANALOK ,'6'       ,'^'       ,WCH_O   ,WCH_OO  , WCH_NONE  , WCH_NONE  , 0x1e      , 0x1e      },
-    {VK_OEM_MINUS , KANALOK ,'-'       ,'_'       ,WCH_HO  ,WCH_HO  , WCH_NONE  , WCH_NONE  , 0x1f      , 0x1f      },
+    {VK_OEM_MINUS , KANALOK ,'-'       ,'_'       ,WCH_HO  ,WCH_PS  , WCH_NONE  , WCH_NONE  , 0x1f      , 0x1f      },
     {0            , 0       ,0         ,0         ,0       ,0       , 0         , 0         , 0         , 0         }
 };
 
